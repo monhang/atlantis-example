@@ -13,12 +13,3 @@ projects:
   terraform_version: v0.12.0
   apply_requirements: [mergeable, approved]
   workflow: gcponly
-# workflows:
-#   empty: {}
-#   myworkflow:
-#     plan:
-#       steps:
-#       - run: echo planning
-#     apply:
-#       steps:
-#       - run: echo applying
