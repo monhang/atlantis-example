@@ -7,3 +7,9 @@ projects:
   terraform_version: v0.12.0
   apply_requirements: [mergeable, approved]
   workflow: gcponly
+- name: aws
+  dir: cloud/aws
+  workspace: default
+  terraform_version: v0.12.0
+  apply_requirements: [mergeable, approved]
+  workflow: awsonly
